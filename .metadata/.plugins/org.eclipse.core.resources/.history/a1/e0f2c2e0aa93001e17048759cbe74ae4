@@ -1,0 +1,21 @@
+package com.br.stock.services;
+
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+@Service
+public class RabbitMqService {
+
+	
+	@Autowired
+	private RabbitTemplate rabiRabbitTemplate;
+	
+	public void sendMessage(String queueName, Object message)  {
+		System.out.println("mensagem a ser enviada"+ message);
+		this.rabiRabbitTemplate.convertAndSend(queueName,message);
+	}
+}

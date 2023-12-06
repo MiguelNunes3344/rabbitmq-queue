@@ -1,0 +1,20 @@
+package com.br.consumerstock.consumer;
+
+import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.stereotype.Component;
+
+import com.br.stock.dto.Stock;
+
+@Component
+public class StockConsumer {
+
+	private final static String NAME_QUEUE = "STOCK";
+	
+	
+	@RabbitListener(queues = NAME_QUEUE)
+	public void consumer(byte[] message) {
+	
+		System.out.println("Event consumed");
+		
+	}
+}

@@ -1,0 +1,10 @@
+package com.br.stock.exceptions;
+
+public class ValidateException extends RuntimeException {
+
+	private static final long serialVersionUID = -7404952366727983401L;
+
+	public ValidateException(String msg) {
+		super(msg);
+	}
+}

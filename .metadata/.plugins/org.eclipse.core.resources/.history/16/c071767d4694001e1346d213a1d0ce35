@@ -1,0 +1,13 @@
+package com.br.stock.exceptions;
+
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.*;
+
+@ControllerAdvice
+public class ExceptionHandler {
+	
+	@ExceptionHandler(ValidateException.class)
+    public void handleException() {
+        //
+    }
+}

@@ -1,0 +1,25 @@
+package com.br.stock.connection;
+
+import org.springframework.amqp.core.AmqpAdmin;
+import org.springframework.amqp.core.DirectExchange;
+import org.springframework.amqp.core.Exchange;
+import org.springframework.amqp.core.Queue;
+import org.springframework.stereotype.Component;
+
+@Component
+public class RabbitMqConnection {
+	private static final String EXCHANGE_NAME = "amq.direct";
+	
+	private final AmqpAdmin amqpAdmin;
+	
+	public RabbitMqConnection(AmqpAdmin amqpAdmin) {
+		this.amqpAdmin = amqpAdmin;
+	}
+	
+	private Queue queue(String name) {
+		return new Queue(name,true,false,false,null);
+	}
+	private DirectExchange exchange() {
+		return new DirectExchange(EXCHANGE_NAME, true, false, null);
+	}
+}

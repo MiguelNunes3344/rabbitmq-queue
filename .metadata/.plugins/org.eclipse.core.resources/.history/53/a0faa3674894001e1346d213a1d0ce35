@@ -1,0 +1,13 @@
+package com.br.stock.exceptions;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+@ControllerAdvice
+public class ExceptionHandlerResource {
+	
+	@ExceptionHandler(ValidateException.class)
+    public ResponseEntity<String> handleException(ValidateException e) {
+        return ResponseEntity.badRequest().body(e.getMessage());
+    }
+}

@@ -1,0 +1,5 @@
+package com.br.consumerstock.consumer.config;
+
+public class RabbitMqConfig {
+
+}

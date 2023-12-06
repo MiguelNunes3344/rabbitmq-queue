@@ -1,0 +1,12 @@
+package com.br.stock;
+
+import org.junit.Test;
+
+@SPRI
+public class StockApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}

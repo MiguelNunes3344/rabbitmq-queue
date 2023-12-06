@@ -1,0 +1,11 @@
+package com.br.stock.dto;
+
+import java.io.Serializable;
+
+public class PrecoDto implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+
+	private String productCode;
+	private double price;
+}

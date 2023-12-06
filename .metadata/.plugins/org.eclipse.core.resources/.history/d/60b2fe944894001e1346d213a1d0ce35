@@ -1,0 +1,17 @@
+package com.br.stock.exceptions;
+
+import java.time.LocalDateTime;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+@ControllerAdvice
+public class ExceptionHandlerResource {
+	
+	@ExceptionHandler(ValidateException.class)
+    public ResponseEntity<String> handleException(ValidateException e) {
+		
+		DefaultError defaultError = new DefaultError(LocalDateTime.now(),404,e.getMessage());
+        return ResponseEntity.badRequest().body(e.getMessage());
+    }
+}

@@ -1,0 +1,13 @@
+package com.br.stock;
+
+
+
+@SpringBootTest
+class StockApplicationTest {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,41 @@
+
+package com.br.stock;
+
+
+import com.br.stock.dto.PriceDto;
+import com.br.stock.exceptions.ValidateException;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.client.RestTemplate;
+
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.Assert.assertEquals;
+
+@SpringBootTest
+class StockApplicationTests {
+    @Autowired
+    RestTemplate restTemplate;
+
+    @Test
+    void successPrice() {
+        PriceDto priceDtoRequest = new PriceDto(15,10);
+        HttpEntity<PriceDto> requestEntity = new HttpEntity<>(priceDtoRequest);
+        ResponseEntity<PriceDto> dto = restTemplate.exchange("http://localhost:8080/price", HttpMethod.PUT,requestEntity,PriceDto.class);
+        assertEquals(PriceDto.class,dto.getBody().getClass());
+    }
+    @Test
+    void failurePrice() {
+    	
+    	PriceDto priceDtoRequest = new PriceDto(0,10);
+    	
+    	Exception thrown = Assertions.assertThrows(ValidateException.class);
+    	assertThat(thrown.getMessage(),"Product code must be greatest than 0");
+    }
+
+
+}

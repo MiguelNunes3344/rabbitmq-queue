@@ -1,0 +1,29 @@
+
+package com.br.stock;
+
+
+import com.br.stock.dto.PriceDto;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.client.RestTemplate;
+
+import static org.junit.Assert.assertEquals;
+
+@SpringBootTest
+class StockApplicationTests {
+    @Autowired
+    RestTemplate restTemplate;
+
+    @Test
+    void successPrice() {
+        PriceDto priceDtoRequest = new PriceDto(15,10);
+        HttpEntity<PriceDto> requestEntity = new HttpEntity<>(priceDtoRequest);
+        ResponseEntity<PriceDto> dto = restTemplate.exchange("http://localhost:8080/price", HttpMethod.PUT,requestEntity,PriceDto.class);
+        assertEquals(PriceDto.class,dto.getBody().getClass());
+    }
+
+}

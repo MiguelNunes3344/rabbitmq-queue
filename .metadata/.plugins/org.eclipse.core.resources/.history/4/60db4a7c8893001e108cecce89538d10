@@ -1,0 +1,14 @@
+package com.br.consumerstock.consumer;
+
+import org.springframework.amqp.rabbit.annotation.RabbitListener;
+
+public class StockConsumer {
+
+	
+	
+	
+	@RabbitListener
+	private void consumer() {
+		
+	}
+}

@@ -1,0 +1,5 @@
+package com.br.stock.exceptions;
+
+public class ValidateException {
+
+}

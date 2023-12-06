@@ -1,0 +1,5 @@
+package com.br.stock.consts;
+
+public class RabbitMqNameQueues {
+
+}

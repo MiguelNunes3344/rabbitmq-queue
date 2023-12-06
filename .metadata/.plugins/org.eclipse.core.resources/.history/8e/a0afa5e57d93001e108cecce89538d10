@@ -1,0 +1,9 @@
+package com.br.stock.enums;
+
+public enum RabbitMqQueueName {
+
+	STOCK,
+	PRICE
+	
+	
+}

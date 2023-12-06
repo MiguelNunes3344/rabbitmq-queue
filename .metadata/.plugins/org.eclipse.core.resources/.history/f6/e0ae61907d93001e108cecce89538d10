@@ -1,0 +1,38 @@
+package com.br.stock.dto;
+
+import java.io.Serializable;
+
+public class Stock implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+
+	private String productCode;
+	private String quantity;
+	
+	public Stock() {
+		
+	}
+
+	public Stock(String productCode, String quantity) {
+		this.productCode = productCode;
+		this.quantity = quantity;
+	}
+
+	public String getProductCode() {
+		return productCode;
+	}
+
+	public void setProductCode(String productCode) {
+		this.productCode = productCode;
+	}
+
+	public String getQuantity() {
+		return quantity;
+	}
+
+	public void setQuantity(String quantity) {
+		this.quantity = quantity;
+	}
+	
+	
+}
