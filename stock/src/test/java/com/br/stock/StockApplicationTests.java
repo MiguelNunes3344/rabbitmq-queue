@@ -8,24 +8,53 @@ import com.br.stock.enums.RabbitMqQueueName;
 import com.br.stock.exceptions.ValidateException;
 
 import com.br.stock.services.RabbitMqService;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.*;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.Optional;
+
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertEquals;
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.*;
 
 @SpringBootTest
 class StockApplicationTests {
     @Autowired
     RestTemplate restTemplate;
+    @InjectMocks
+    RabbitMqService rabbitMqService;
 
     @Autowired
-    RabbitMqService rabbitMqService;
+    private ObjectMapper objectMapper;
+
+    @Mock
+    private RabbitTemplate rabbitTemplate;
+
+    @BeforeEach
+    void setup() {
+        MockitoAnnotations.initMocks(this);
+    }
+    @Test
+    void successSendMessage() throws JsonProcessingException {
+        PriceDto priceDtoRequest = new PriceDto(15,10);
+        
+        rabbitMqService.sendMessage("PRICE", priceDtoRequest);
+        verify(rabbitTemplate,times(1)).convertAndSend("PRICE",objectMapper.writeValueAsString(priceDtoRequest));
+    }
+
 
     @Test
     void successPrice() {
