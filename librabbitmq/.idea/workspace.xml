@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="048036d4-b2fb-4e82-aff4-a80851073821" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/maven_wrapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stock/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stock/src/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/consumer-price/org.eclipse.jdt.core/state.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/consumer-stock/org.eclipse.jdt.core/state.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/consumer-stock2/org.eclipse.jdt.core/state.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/stock/org.eclipse.jdt.core/state.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1201326162.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1201326162.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/DECISION_TAB.LOG" beforeDir="false" afterPath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/DECISION_TAB.LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/LATEST.LOG" beforeDir="false" afterPath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/LATEST.LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/coordination/rabbit@9fa712f4dee0/00000004.wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/coordination/rabbit@9fa712f4dee0/RABBITYDFGK16KKZEU/00000001.segment" beforeDir="false" afterPath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/coordination/rabbit@9fa712f4dee0/RABBITYDFGK16KKZEU/00000001.segment" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/coordination/rabbit@9fa712f4dee0/meta.dets" beforeDir="false" afterPath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/coordination/rabbit@9fa712f4dee0/meta.dets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent/clean.dot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent/file_summary.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent/msg_store_index.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient/clean.dot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient/file_summary.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient/msg_store_index.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/queues/7W8A8FM1FUMKOP6TMLOTM9CNX/2.qi" beforeDir="false" afterPath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/queues/7W8A8FM1FUMKOP6TMLOTM9CNX/2.qi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/queues/7W8A8FM1FUMKOP6TMLOTM9CNX/2.qs" beforeDir="false" afterPath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/queues/7W8A8FM1FUMKOP6TMLOTM9CNX/2.qs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/queues/DVG242KKLDOZN02VXIYPW9RQS/0.qi" beforeDir="false" afterPath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/queues/DVG242KKLDOZN02VXIYPW9RQS/0.qi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/queues/DVG242KKLDOZN02VXIYPW9RQS/0.qs" beforeDir="false" afterPath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/queues/DVG242KKLDOZN02VXIYPW9RQS/0.qs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/recovery.dets" beforeDir="false" afterPath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/recovery.dets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/quorum/rabbit@9fa712f4dee0/00000004.wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/rabbit_durable_queue.DCD" beforeDir="false" afterPath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/rabbit_durable_queue.DCD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/rabbit_durable_queue.DCL" beforeDir="false" afterPath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/rabbit_durable_queue.DCL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/rabbit_serial" beforeDir="false" afterPath="$PROJECT_DIR$/../data/mnesia/rabbit@9fa712f4dee0/rabbit_serial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/br/stock/dto/PriceDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/br/stock/dto/PriceDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/br/stock/dto/Stock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/br/stock/dto/Stock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/br/stock/enums/RabbitMqQueueName.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/br/stock/enums/RabbitMqQueueName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock/src/main/java/com/br/stock/services/RabbitMqService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stock/src/main/java/com/br/stock/services/RabbitMqService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock/src/test/java/com/br/stock/StockApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stock/src/test/java/com/br/stock/StockApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../stock/src/test/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2ZEEvFkTXv3q8Q33wK1vNJe4nxn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/projetos_SpringTools/RabbitMq/stock",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propCompiler"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-8336523bb0d9-93b19daf" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="048036d4-b2fb-4e82-aff4-a80851073821" name="Changes" comment="" />
+      <created>1701979069048</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701979069048</updated>
+    </task>
+    <servers />
+  </component>
+</project>

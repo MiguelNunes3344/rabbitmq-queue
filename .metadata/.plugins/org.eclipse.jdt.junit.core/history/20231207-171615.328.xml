@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="StockApplicationTests.successSendMessage" project="stock" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="com.br.stock.StockApplicationTests" time="0.235" displayname="StockApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.br.stock.StockApplicationTests]">
+    <testcase name="successSendMessage" classname="com.br.stock.StockApplicationTests" time="0.235" displayname="successSendMessage()" uniqueid="[engine:junit-jupiter]/[class:com.br.stock.StockApplicationTests]/[method:successSendMessage()]">
+      <error>java.lang.ClassCastException: class java.lang.Object cannot be cast to class com.br.stock.dto.PriceDto (java.lang.Object is in module java.base of loader 'bootstrap'; com.br.stock.dto.PriceDto is in unnamed module of loader 'app')&#13;
+	at com.br.stock.StockApplicationTests.successSendMessage(StockApplicationTests.java:55)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

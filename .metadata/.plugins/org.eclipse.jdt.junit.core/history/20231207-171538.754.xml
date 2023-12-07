@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="StockApplicationTests.successPrice" project="stock" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.br.stock.StockApplicationTests" time="1.428" displayname="StockApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.br.stock.StockApplicationTests]">
+    <testcase name="successPrice" classname="com.br.stock.StockApplicationTests" time="1.428" displayname="successPrice()" uniqueid="[engine:junit-jupiter]/[class:com.br.stock.StockApplicationTests]/[method:successPrice()]"/>
+  </testsuite>
+</testrun>
