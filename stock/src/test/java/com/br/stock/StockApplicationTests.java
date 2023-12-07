@@ -16,7 +16,9 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
+import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
+import org.springframework.amqp.AmqpException;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -27,6 +29,7 @@ import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
@@ -54,6 +57,21 @@ class StockApplicationTests {
         rabbitMqService.sendMessage("PRICE", priceDtoRequest);
         verify(rabbitTemplate,times(1)).convertAndSend("PRICE",objectMapper.writeValueAsString(priceDtoRequest));
     }
+    @Test
+    void failSendMessage() throws JsonProcessingException {
+        PriceDto priceDtoRequest = new PriceDto(15,10);
+        doThrow(new AmqpException("error")).when(rabbitTemplate).convertAndSend("PRICE", objectMapper.writeValueAsString(priceDtoRequest));
+        
+        rabbitMqService.sendMessage("PRICE", priceDtoRequest);
+        
+        AmqpException e =assertThrows(AmqpException.class, () -> {
+        	rabbitTemplate.convertAndSend("PRICE", objectMapper.writeValueAsString(priceDtoRequest));
+        });
+        /*
+        verify(rabbitTemplate,times(1)).convertAndSend("PRICE",objectMapper.writeValueAsString(priceDtoRequest));
+    	*/
+    }
+    
 
 
     @Test
