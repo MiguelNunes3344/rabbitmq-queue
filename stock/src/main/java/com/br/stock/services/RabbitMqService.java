@@ -45,7 +45,7 @@ public class RabbitMqService {
 			if (stock.getProductCode()==null) {
 				throw new ValidateException("Product code must be informed",HttpStatus.BAD_REQUEST);
 			} else if (stock.getQuantity() <= 0 ) {
-				throw new ValidateException("Product code must be greatest than 0",HttpStatus.BAD_REQUEST);
+				throw new ValidateException("Quantity must be greatest than 0",HttpStatus.BAD_REQUEST);
 			}
 		}
 		

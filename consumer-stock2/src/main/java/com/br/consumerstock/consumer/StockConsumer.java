@@ -14,7 +14,6 @@ public class StockConsumer {
 
 	private final static String NAME_QUEUE = "STOCK";
 	
-	
 	private final ObjectMapper objectMapper;
 
     public StockConsumer(ObjectMapper objectMapper) {

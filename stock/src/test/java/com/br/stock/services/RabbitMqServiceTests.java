@@ -64,7 +64,7 @@ public class RabbitMqServiceTests {
         
         rabbitMqService.sendMessage(PRICE, priceDtoRequest);
         
-        AmqpException e =assertThrows(AmqpException.class, () -> {
+        assertThrows(AmqpException.class, () -> {
         	rabbitTemplate.convertAndSend(PRICE, objectMapper.writeValueAsString(priceDtoRequest));
         });
        

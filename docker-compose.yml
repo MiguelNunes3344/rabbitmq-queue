@@ -11,3 +11,38 @@ services:
     environment:
       - RABBITMQ_DEFAULT_USER=admin
       - RABBITMQ_DEFAULT_PASS=admin
+  db:
+    container_name: price-db
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_DB: price
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    networks:
+      - dbs
+      
+    volumes:
+      - ../pgdata:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+  db-stock:
+    container_name: container-db
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_DB: stock
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    networks:
+      - dbs
+      
+    volumes:
+      - ../pgdata_db_stock:/var/lib/postgresql/data
+    ports:
+      - 5433:5432
+  
+networks:
+  dbs:
+    driver: bridge
+  

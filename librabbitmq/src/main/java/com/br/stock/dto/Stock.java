@@ -13,10 +13,11 @@ public class Stock implements Serializable {
 		
 	}
 
-	public Stock(String productCode, int quantity) {
+	public Stock( String productCode, int quantity) {
 		this.productCode = productCode;
 		this.quantity = quantity;
 	}
+
 
 	public String getProductCode() {
 		return productCode;
