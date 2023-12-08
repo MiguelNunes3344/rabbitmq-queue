@@ -2,10 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="F:\projetos_SpringTools\RabbitMq\stock"/>
 			<item value="F:\projetos_SpringTools\RabbitMq\consumer-price2"/>
 			<item value="F:\projetos_SpringTools\RabbitMq\consumer-price"/>
 			<item value="F:\projetos_SpringTools\RabbitMq\consumer-stock"/>
-			<item value="F:\projetos_SpringTools\RabbitMq\stock"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

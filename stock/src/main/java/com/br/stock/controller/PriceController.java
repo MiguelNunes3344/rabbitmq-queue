@@ -21,7 +21,7 @@ public class PriceController {
 	private RabbitMqService rabbitMqService;
 	
 	@PutMapping
-	public ResponseEntity<?> updatePrice(@RequestBody PriceDto priceDto) {
+	public ResponseEntity<PriceDto> updatePrice(@RequestBody PriceDto priceDto) {
 		rabbitMqService.sendMessage(RabbitMqQueueName.PRICE, priceDto);
 		return ResponseEntity.status(HttpStatus.OK).body(priceDto);
 	}

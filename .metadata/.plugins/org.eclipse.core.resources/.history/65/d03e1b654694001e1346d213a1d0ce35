@@ -1,8 +1,0 @@
-package com.br.stock.exceptions;
-
-
-public class ExceptionHandler {
-    public void handleException() {
-        //
-    }
-}

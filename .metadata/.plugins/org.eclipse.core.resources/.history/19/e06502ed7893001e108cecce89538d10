@@ -1,5 +1,0 @@
-package com.br.stock.connection;
-
-public class RabbitMqConnection {
-
-}

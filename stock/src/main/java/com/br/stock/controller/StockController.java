@@ -20,7 +20,7 @@ public class StockController {
 	private RabbitMqService rabbitMqService;
 	
 	@PutMapping
-	public ResponseEntity<?> updateStock(@RequestBody Stock stock) {
+	public ResponseEntity<Stock> updateStock(@RequestBody Stock stock) {
 		rabbitMqService.sendMessage(RabbitMqQueueName.STOCK, stock);
 		return ResponseEntity.status(HttpStatus.OK).body(stock);
 	}

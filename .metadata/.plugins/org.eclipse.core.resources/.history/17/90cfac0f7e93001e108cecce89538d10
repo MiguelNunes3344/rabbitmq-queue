@@ -1,5 +1,0 @@
-package com.br.stock.services;
-
-public class RabbitMqService {
-
-}

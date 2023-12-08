@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.amqp.core.DirectExchange"/>
-    <fullyQualifiedTypeName name="org.springframework.amqp.core.Binding"/>
     <fullyQualifiedTypeName name="jakarta.annotation.PostConstruct"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
@@ -24,7 +22,6 @@
     <fullyQualifiedTypeName name="org.springframework.amqp.core.AmqpAdmin"/>
     <fullyQualifiedTypeName name="org.springframework.amqp.core.AmqpTemplate"/>
     <fullyQualifiedTypeName name="org.springframework.amqp.rabbit.core.RabbitTemplate"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="org.springframework.amqp.rabbit.annotation.RabbitListener"/>
     <fullyQualifiedTypeName name="org.springframework.amqp.core.Message"/>
@@ -56,8 +53,11 @@
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServletRequest"/>
     <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
-    <fullyQualifiedTypeName name="com.br.stock.dto.PriceDto"/>
     <fullyQualifiedTypeName name="com.br.stock.dto.Stock"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="com.br.stock.exceptions.ValidateException"/>
+    <fullyQualifiedTypeName name="com.br.stock.dto.PriceDto"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.mockito.Mockito"/>
+    <fullyQualifiedTypeName name="org.springframework.amqp.AmqpException"/>
 </qualifiedTypeNameHistroy>

@@ -1,5 +1,0 @@
-package com.br.stock.dtos;
-
-public class PriceRecordDto {
-
-}

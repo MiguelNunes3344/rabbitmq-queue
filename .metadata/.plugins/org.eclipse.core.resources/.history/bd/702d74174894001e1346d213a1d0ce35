@@ -1,5 +1,0 @@
-package com.br.stock.exceptions;
-
-public class DefaultError {
-
-}

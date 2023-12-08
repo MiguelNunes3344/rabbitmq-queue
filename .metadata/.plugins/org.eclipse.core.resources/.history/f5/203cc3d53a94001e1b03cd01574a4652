@@ -1,8 +1,0 @@
-@SpringBootTest
-class ConsumerStockApplicationTests {
-
-	@Test
-	void contextLoads() {
-	}
-
-}
