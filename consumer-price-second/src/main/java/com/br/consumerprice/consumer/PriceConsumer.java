@@ -22,12 +22,11 @@ public class PriceConsumer {
 	@Autowired
 	private PriceService priceService;
 	
-	
 
 	@RabbitListener(queues = RabbitMqQueueName.PRICE)
 	public void consumer(Message message) throws StreamReadException, DatabindException, IOException {
 		PriceModel priceModel = objectMapper.readValue(message.getBody(), PriceModel.class);
-		priceService.savePrice(priceModel);
+		priceModel = priceService.savePrice(priceModel);
 		System.out.println("Price saved: "+ priceModel);
 	}
 

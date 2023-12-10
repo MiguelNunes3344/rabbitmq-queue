@@ -133,7 +133,7 @@ public class RabbitMqServiceTests {
         });
         
         assertEquals(HttpStatus.BAD_REQUEST.value(),thrown.getStatus());
-        assertEquals("Product code must be greatest than 0", thrown.getMessage());
+        assertEquals("Quantity must be greatest than 0", thrown.getMessage());
     }
 	
 }

@@ -12,7 +12,7 @@ public class StockService {
 	@Autowired
 	StockRepository stockRepository;
 	
-	public void save(StockModel stockModel) {
-		stockRepository.save(stockModel);
+	public StockModel save(StockModel stockModel) {
+		return stockRepository.save(stockModel);
 	}
 }

@@ -13,8 +13,8 @@ public class PriceService {
 	PriceRepository priceRepository;
 	
 	
-	public void savePrice(PriceModel priceModel) {
-		priceRepository.save(priceModel);
+	public PriceModel savePrice(PriceModel priceModel) {
+		return priceRepository.save(priceModel);
 	}
 	
 }

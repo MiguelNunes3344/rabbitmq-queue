@@ -16,7 +16,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @Component
 public class StockConsumer {
 
-	
 	@Autowired
 	private ObjectMapper objectMapper;
     @Autowired
